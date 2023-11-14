@@ -117,6 +117,7 @@ function M.setup(colors, config)
         ["@text.title"] = { link = "Function" },
         -- @text.literal (Comment)                     ; literal or verbatim text (e.g., inline code)
         ["@text.literal"] = { link = "String" },
+        ["@text.literal_block"] = { link = "Keyword" },
         -- @text.quote                                 ; text quotations
         ["@text.quote"] = { link = "@parameter" },
         -- @text.uri (Underlined)                      ; URIs (e.g. hyperlinks)
