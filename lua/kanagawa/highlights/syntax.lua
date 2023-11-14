@@ -91,7 +91,7 @@ function M.setup(colors, config)
         -- mkdLink = {},
 
         -- markdownHeadingDelimiter = {},
-        markdownCode = { fg = theme.syn.string },
+        markdownCode = { fg = theme.syn.parameter },
         markdownCodeBlock = { fg = theme.syn.parameter },
         markdownEscape = { fg = "NONE" },
         -- markdownH1 = {},
